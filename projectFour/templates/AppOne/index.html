@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% extends "AppOne/base.html" %}
+{% load my_extras %}
+
+{% block body_block %}
+
+    <h1>Welcome to the index page</h1>
+    <h2>This is the index.html page</h2>
+
+    <h1>
+      {{ text|cuz:'hello, ' }}
+      <p></p>
+      {{ number|add:"2" }}
+    </h1>
+{% endblock %}
