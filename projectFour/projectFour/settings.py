@@ -26,7 +26,7 @@ SECRET_KEY = 'h&pbpp(888^@z&76qe_@5^5%z-)2(#^z%b3t!m1)6lvifn(jgb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["http://adammdekoning.pythonanywhere.com/"]
 
 
 # Application definition
